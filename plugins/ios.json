@@ -1,0 +1,37 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    },
+    "cordova-plugin-fingerprint-aio": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.freedomchoice.merchantApp"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<ion-content padding class="background">
+<div class="spacer" style="height:100px;"></div>
+<h1>Merchant App</h1>
+
+<form (submit)="doLogin()">
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label fixed>EMAIL</ion-label>
+      <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>PASSWORD</ion-label>
+      <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+    </ion-item>
+
+    <div padding>
+      <button ion-button color="primary" block>Login</button>
+    </div>
+
+  </ion-list>
+</form>
+
+<button ion-button clear color="negative" block (click)="getPassword()">
+  Forgot Password ?
+</button>
+<div class="spacer" style="height:30px;"></div>
+
+
+
+</ion-content>
